@@ -5,4 +5,4 @@ Projects are in order of oldest (1) to newest.
 
 ## **Notable Mentions**
 
-- In project 3, I begin to explore .gitignore and .env files to hold api keys and sensitive data
+- In project 3, I begin to explore .gitignore and .env files to hold api keys and sensitive data. I also begin to explore developing GUI applications using tkinter.
