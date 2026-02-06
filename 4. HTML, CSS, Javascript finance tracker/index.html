@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Finance Tracker</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="container">
+            <h1>Finance Tracker</h1>
+            <h3>Your remaining balance:</h3>
+            <h4 id="current-balance">0.00</h4>
+            <div id="income">
+                <h3>Add income</h3>
+                <p>Income description</p>
+                <input type="text" id="inc-desc">
+                <p>Income amount</p>
+                <input type="number" id="inc-num">
+                <button onclick="add_income()">Add income</button>
+            </div>
+            <div id="expense">
+                <h3>Add expense</h3>
+                <p>Expense description</p>
+                <input type="text" id="exp-desc">
+                <p>Expense amount</p>
+                <input type="number" id="exp-num">
+                <button onclick="add_expense()">Add expense</button>
+            </div>
+            <h3>Recent transactions</h3>
+            <ul id="transaction-history"></ul>
+        </div>
+        <script src="scripts.js"></script>
+    </body>
+</html>

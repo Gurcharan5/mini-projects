@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    margin: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container input{
+    padding: 5px;
+    width: 400px;
+    height: 15px;
+}
+
+#income button{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 7px;
+    border: none;
+}
+
+#expense button{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 7px;
+    border: none;
+}
+
+#transaction-history{
+    list-style: none;
+}
