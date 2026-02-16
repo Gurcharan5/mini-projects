@@ -1,0 +1,35 @@
+body{
+    background-color: grey;
+}
+
+#container{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width: max-content;
+    gap: 30px;
+}
+
+#container form input{
+    display: block;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+#container form{
+    background-color: gray;
+    border-radius: 20px;
+    padding: 20px;
+    width: max-content;
+    color: white;
+}
+
+#container form input[type="submit"]{
+    border: none;
+    background-color: white;
+    margin-top: 7px;
+}

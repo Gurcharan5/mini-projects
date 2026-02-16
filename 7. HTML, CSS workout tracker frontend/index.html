@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Workout Tracker</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="container">
+            <div id="current-workout">
+                <h2>Workout Tracker</h2>
+                <form>
+                    <label for="exercise-name">Exercise Name</label>
+                    <input id="exercise-name" type="text">
+                    <label for="exercise-weight">Weight</label>
+                    <input id="exercise-weight" type="number">
+                    <label for="exercise-sets">Sets</label>
+                    <input id="exercise-sets" type="number">
+                    <label for="exercise-reps">Reps</label>
+                    <input id="exercise-reps" type="number">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div id="current-meal">
+                <h2>Food Tracker</h2>
+                <form>
+                    <label for="meal-name">Meal Name</label>
+                    <input id="meal-name" type="text">
+                    <label for="meal-calories">Calories</label>
+                    <input id="meal-calories" type="number">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div id="workout-history">
+                <h2>Workout History</h2>
+                <ul id="workout-history-ul"></ul>
+            </div>
+            <div id="food-history">
+                <h2>Food History</h2>
+                <ul id="food-history-ul"></ul>
+            </div>
+        </div>
+    </body>
+</html>

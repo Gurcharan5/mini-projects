@@ -9,4 +9,6 @@ Projects are in order of oldest (1) to newest.
 
 - In project 5, I begin to explore cyber engineering project, in this case a key generator and checker which follows a certain pattern.
 
-- Project 6 is a continuation of cyber engineering, in this case making use of a Ceasur cipher to encrypt and decrpyt data. 
+- Project 6 is a continuation of cyber engineering, in this case making use of a Ceasur cipher to encrypt and decrpyt data. I also begin to explore data storage and databases
+
+- In project 8, I begin to explore try except blocks to catch errors and inform users of any incorrect inputs.
