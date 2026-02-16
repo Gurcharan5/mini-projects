@@ -1,0 +1,1 @@
+This is a simple calulator application made using HTML and Javascript. It works by first sanitising user inputs to make sure they are numbers, then completing basic arithmetic using a drop down menu and using an alert to tell the user the outcome.
