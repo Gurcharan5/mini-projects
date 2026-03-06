@@ -12,4 +12,6 @@ Each project has got its own individual README file in which you can see more in
 
 - Project 6 is a continuation of cyber engineering, in this case making use of a Ceasur cipher to encrypt and decrpyt data. I also begin to explore data storage and databases.
 
-- In project 8, I begin to explore try except blocks to catch errors and inform users of any incorrect inputs.
+- In project 8, I begin to explore try except blocks to catch errors and inform users of any incorrect inputs.  
+
+- In project 9, I begin to use external database APIs, use classes and also improve on my encryption methods. I also begin to split my projects into separate files to help improve re-useability.
