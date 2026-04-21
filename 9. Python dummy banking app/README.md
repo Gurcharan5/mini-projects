@@ -29,7 +29,7 @@ Main interface
 ![application screenshot](\images\main_interface.png)
 Sending money
 ![application screenshot](\images\successful_send.png)
-Invalud funds
+Invalid funds
 ![application screenshot](\images\invalid_funds.png)
 Supabase screenshots
 ![application screenshot](\images\supabase_users.png)
