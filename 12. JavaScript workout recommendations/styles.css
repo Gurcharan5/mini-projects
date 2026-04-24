@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: #ffffff;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#sections {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+ol {
+    display: inline-block;
+    text-align: left;
+}
+
+#workout-types, #generator, #countdown {
+    flex: 1;
+    background-color: #ffffff;
+    color: black;
+    padding: 12px;
+    border-radius: 12px;
+    max-width: 400px;
+}
+
+#generator p {
+    font-weight: bold;
+}
+.input {
+    padding: 6px;
+}
+
+.submit {
+    background-color: rgb(83, 83, 244);
+    color: black;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    width: 90px;
+}

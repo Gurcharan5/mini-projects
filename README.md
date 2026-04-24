@@ -1,8 +1,7 @@
 # **About** 
 
 A collection of mini projects I've created over time to build my programming skills and showcase my progress.  
-Projects are in order of oldest (1) to newest.  
-Each project has got its own individual README file in which you can see more information about the application, how it works and a screenshot of the interface.  
+Projects are in order of oldest (1) to newest. 
 
 ## **Notable Mentions**
 

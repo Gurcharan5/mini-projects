@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Javascript Workout Recommender</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Workout generator</h1>
+        <h2>Here you can get a recommended workout based on your workout criteria</h2>
+        <p>To effectively use this website, select an area to workout then a set duration.</p>
+        <div id="sections">
+            <div id="workout-types">
+                <h3>Available workout types</h3>
+                <ol>
+                    <li>Arms</li>
+                    <li>Back</li>
+                    <li>Legs</li>
+                    <li>Abs</li>
+                </ol>
+            </div>
+            <div id="generator">
+                <p>Please input which type you would like</p>
+                <input class="input" type="text" id="workoutType">
+                <input class="submit" type="submit" onclick="recommendWorkout(document.getElementById('workoutType').value)">
+                <p id="workoutToDo"></p>
+            </div>
+            <div id="countdown">
+                <p>Workout countdown in seconds</p>
+                <input class="input" type="text" id="countdownTimer">
+                <input class="submit" type="submit" value="Start" onclick="countdown(document.getElementById('countdownTimer').value)">
+                <p id="timer"></p>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
