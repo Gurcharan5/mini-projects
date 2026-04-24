@@ -1,0 +1,17 @@
+{
+  "name": "13-typescript-rock-paper-scissors",
+  "version": "1.0.0",
+  "type": "module", 
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/prompt-sync": "^4.2.3"
+  },
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true
+  }
+}
